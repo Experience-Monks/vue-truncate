@@ -1,0 +1,32 @@
+{
+  "name": "vue-truncate",
+  "version": "1.0.0",
+  "description": "A Vue filter that will truncate text to a specified length.",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Brendan Neufeld",
+    "email": "brendanjneufeld@gmail.com",
+    "url": "https://github.com/BrenanNeufeld"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "vue,",
+    "vuejs,",
+    "filter,",
+    "truncate,",
+    "text"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jam3/vue-truncate.git"
+  },
+  "homepage": "https://github.com/jam3/vue-truncate",
+  "bugs": {
+    "url": "https://github.com/jam3/vue-truncate/issues"
+  }
+}
