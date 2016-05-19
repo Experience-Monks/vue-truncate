@@ -1,5 +1,7 @@
 'use strict';
 
+var ellipsize = require('ellipsize');
+
 exports.install = function (Vue, opts) {
 
   var filter = function(text, length, clamp){
@@ -7,7 +9,7 @@ exports.install = function (Vue, opts) {
     var node = document.createElement('div');
     node.innerHTML = text;
     var content = node.textContent;
-    return content.length > length ? content.slice(0, length) + clamp : content;
+    return ellipsize(content, length, { ellipse: clamp });
   };
 
   Vue.filter('truncate', filter);

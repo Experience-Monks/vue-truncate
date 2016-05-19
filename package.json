@@ -9,7 +9,9 @@
     "email": "brendanjneufeld@gmail.com",
     "url": "https://github.com/BrenanNeufeld"
   },
-  "dependencies": {},
+  "dependencies": {
+    "ellipsize": "0.0.2"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "node test.js"
